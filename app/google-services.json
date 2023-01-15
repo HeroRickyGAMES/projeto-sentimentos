@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569618806008",
+    "project_id": "sentimentos-db",
+    "storage_bucket": "sentimentos-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569618806008:android:36d108c2a173416ad5b70d",
+        "android_client_info": {
+          "package_name": "com.herorickystudios.sentimentos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569618806008-r1ljpbfcbfd96clu1eio081hl61hdmb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUtBFD-Oo-A5Uwlrtle8Xpv-pHNXyI2FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569618806008-r1ljpbfcbfd96clu1eio081hl61hdmb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
