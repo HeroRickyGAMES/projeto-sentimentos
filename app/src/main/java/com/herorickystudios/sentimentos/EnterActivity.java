@@ -1,5 +1,7 @@
 package com.herorickystudios.sentimentos;
 
+//Desenvolvido por HeroRickyGames
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
