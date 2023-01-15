@@ -2,17 +2,24 @@ package com.herorickystudios.sentimentos;
 
 //Desenvolvido por HeroRickyGames
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.Calendar;
@@ -33,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
         editNome = findViewById(R.id.editNome);
         editDRT = findViewById(R.id.editDRT);
-
     }
     public void sendToDb(View view){
 
