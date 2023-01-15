@@ -6,22 +6,23 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:background="@drawable/bgactivity"
-    tools:context=".felizActivity">
+    tools:context=".tristeActivity">
+
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:background="#FB9797"
-        android:text="Ficamos feliz em saber que você está bem e feliz!"
+        android:text="Mantenha a calma, respire, as coisas virão no momento certo, a raiva traz coisas negativas, por isso busque ajuda com pessoas confiaveis que te ouve e te entenda. Estou aqui!!! Converse com a coordenação."
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <TextView
         android:id="@+id/textView6"
@@ -63,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:srcCompat="@drawable/felizemoji" />
+        app:srcCompat="@drawable/bravoemoji" />
 
     <Button
         android:id="@+id/button"
@@ -74,19 +75,28 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Feliz"
+        android:layout_marginBottom="16dp"
+        android:text="Bravo(a)"
         android:textColor="#FF0000"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7209302" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

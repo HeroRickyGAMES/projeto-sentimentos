@@ -97,13 +97,28 @@ public class MainActivity extends AppCompatActivity {
 
                                 if(sentimento.equals("Triste")){
 
+                                    finish();
+
+                                    Intent tristeIntent = new Intent(MainActivity.this, tristeActivity.class);
+                                    startActivity(tristeIntent);
+
                                 }
 
                                 if(sentimento.equals("Doente")){
 
+                                    finish();
+
+                                    Intent doenteIntent = new Intent(MainActivity.this, doenteActivity.class);
+                                    startActivity(doenteIntent);
+
                                 }
 
                                 if(sentimento.equals("Bravo")){
+
+                                    finish();
+
+                                    Intent bravoIntent = new Intent(MainActivity.this, bravoActivity.class);
+                                    startActivity(bravoIntent);
 
                                 }
 

@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:background="@drawable/bgactivity"
-    tools:context=".felizActivity">
+    tools:context=".tristeActivity">
 
     <TextView
         android:id="@+id/textView9"
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="#FB9797"
-        android:text="Ficamos feliz em saber que você está bem e feliz!"
+        android:text="Você está triste... Respire fundo, seque suas lagrimas, estou aqui, converse com sua coordenação"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="34sp"
@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:srcCompat="@drawable/felizemoji" />
+        app:srcCompat="@drawable/tristeemoji" />
 
     <Button
         android:id="@+id/button"
@@ -81,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Feliz"
+        android:text="Triste"
         android:textColor="#FF0000"
         android:textSize="24sp"
         android:textStyle="bold"

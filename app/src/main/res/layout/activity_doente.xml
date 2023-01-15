@@ -12,16 +12,15 @@
         android:id="@+id/textView9"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:background="#FB9797"
-        android:text="Ficamos feliz em saber que você está bem e feliz!"
+        android:text="Você está doente... Recomendamos procurar um medico ou tomar algum remedio... Se você se sentir a voltade, pode vir falar com a coordenação"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView6"
@@ -63,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:srcCompat="@drawable/felizemoji" />
+        app:srcCompat="@drawable/donteemoji" />
 
     <Button
         android:id="@+id/button"
@@ -76,12 +75,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Feliz"
+        android:text="Doente"
         android:textColor="#FF0000"
         android:textSize="24sp"
         android:textStyle="bold"
