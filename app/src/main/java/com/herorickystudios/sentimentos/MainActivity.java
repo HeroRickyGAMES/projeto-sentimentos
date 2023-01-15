@@ -4,6 +4,7 @@ package com.herorickystudios.sentimentos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -87,16 +88,25 @@ public class MainActivity extends AppCompatActivity {
 
                                 if(sentimento.equals("Feliz")){
 
+                                    finish();
+
+                                Intent felizIntent = new Intent(MainActivity.this, felizActivity.class);
+                                startActivity(felizIntent);
+
                                 }
+
                                 if(sentimento.equals("Triste")){
 
                                 }
+
                                 if(sentimento.equals("Doente")){
 
                                 }
+
                                 if(sentimento.equals("Bravo")){
 
                                 }
+
                             }
                         });
                     }

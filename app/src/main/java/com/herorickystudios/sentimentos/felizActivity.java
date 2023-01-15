@@ -1,26 +1,23 @@
 package com.herorickystudios.sentimentos;
 
-//Desenvolvido por HeroRickyGames
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class EnterActivity extends AppCompatActivity {
+public class felizActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_enter);
+        setContentView(R.layout.activity_feliz);
     }
 
-    public void toMain(View view){
-
+    public void obrigadoAc(View view){
         finish();
 
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(felizActivity.this, endActivity.class);
         startActivity(intent);
 
     }
