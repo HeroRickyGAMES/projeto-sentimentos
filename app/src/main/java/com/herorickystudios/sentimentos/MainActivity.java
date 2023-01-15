@@ -131,15 +131,19 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void felizBTNString(View view){
-    sentimento = "Feliz";
+        sentimento = "Feliz";
+        Toast.makeText(this, "Você selecionou: Feliz", Toast.LENGTH_SHORT).show();
     }
     public void tristeBTNString(View view){
-    sentimento = "Triste";
+        Toast.makeText(this, "Você selecionou: Triste", Toast.LENGTH_SHORT).show();
+        sentimento = "Triste";
     }
     public void doenteBRTNString(View view){
-    sentimento = "Doente";
+        Toast.makeText(this, "Você selecionou: Doente", Toast.LENGTH_SHORT).show();
+        sentimento = "Doente";
     }
     public void bravoBTNString(View view){
-     sentimento = "Bravo";
+        Toast.makeText(this, "Você selecionou: Bravo", Toast.LENGTH_SHORT).show();
+        sentimento = "Bravo";
     }
 }
